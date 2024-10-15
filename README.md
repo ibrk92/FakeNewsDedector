@@ -85,4 +85,11 @@ This means that the model may not always accurately distinguish between fake and
 
 ### Classification Report
 ![Classification Report](screenshots/classification_report.png)
+
+## Data Sources
+
+The datasets used for training and evaluating the model are sourced from Kaggle:
+
+1. [Fake News Dataset by Rajat Kumar](https://www.kaggle.com/datasets/rajatkumar30/fake-news)
+2. [Fake News Classification Dataset by Saurabh Shahane](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification/data)
  
