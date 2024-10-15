@@ -51,10 +51,11 @@ You can access the application by navigating to http://127.0.0.1:8000/ in your w
 ## Screenshots
 
 ### Real News Screenshot
-![Real News](screenshots/detector_real.png)
+![Real News](https://github.com/ibrk92/FakeNewsDedector/blob/master/screenshots/detector_real.png)
 
 ### Fake News Screenshot
-![Fake News](screenshots/detector_fake.png)
+![Fake News](https://github.com/ibrk92/FakeNewsDedector/blob/master/screenshots/detector_fake.png)
+
 
 ## Model Accuracy
 
