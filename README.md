@@ -81,8 +81,8 @@ This means that the model may not always accurately distinguish between fake and
 ## Model Performance
 
 ### Confusion Matrix
-![Confusion Matrix](path/to/confusion_matrix.png)
+![Confusion Matrix](screenshots/confusion_matrix.png)
 
 ### Classification Report
-![Classification Report](path/to/classification_report.png)
+![Classification Report](screenshots/classification_report.png)
  
