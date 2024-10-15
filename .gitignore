@@ -1,0 +1,16 @@
+# Virtual Env.
+venv/
+
+# Django setup
+*.pyc
+__pycache__/
+db.sqlite3
+
+
+# IDE files
+.idea/
+*.iml
+
+# Jupyter notebook output
+.ipynb_checkpoints/
+ 
