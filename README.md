@@ -35,9 +35,10 @@ Fake News Detector is a web application that helps users evaluate the authentici
    pip install -r requirements.txt
 
 5. **Run Migrations**
+   ```bash
    python manage.py migrate
 
-6. **Run the Development Server**
+7. **Run the Development Server**
    python manage.py runserver
 
 ### Notes
