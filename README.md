@@ -56,10 +56,33 @@ You can access the application by navigating to http://127.0.0.1:8000/ in your w
 ### Fake News Screenshot
 ![Fake News](screenshots/dedector_fake.png)
 
+## Model Development
+
+In the development of the machine learning model, I explored various feature engineering techniques to optimize performance. The following methods were utilized:
+
+- **Count Vectors**
+- **TF-IDF**
+  - **Word Level**
+    - Achieved the highest accuracy of **77.47%**
+  - **n-gram Level**
+  - **Character Level**
+I initially considered using Apache Spark for processing the dataset but encountered challenges with implementing lemmatization. Consequently, I opted for **Pandas** for data manipulation, and selected **Logistic Regression** as my final model due to its superior accuracy compared to other methods.
+
+By applying these techniques and approaches, I aimed to enhance the model's capability to accurately identify fake news, while remaining open to future improvements and refinements.
 
 ## Model Accuracy
 
-The accuracy of our model using Word Level TF-IDF is approximately **0.7747**. This accuracy is derived from a text dataset consisting of **66,301 entries** and is dependent on the words used in that dataset. 
+The model's performance was assessed using cross-validation scores, providing a reliable measure of its accuracy and ensuring that the results are consistent across different subsets of the dataset. 
+
+The accuracy of our model using **Word Level TF-IDF** is approximately **0.7747**. This accuracy is derived from a text dataset consisting of **66,301 entries** and a total of **7,674,275 words**. 
 
 This means that the model may not always accurately distinguish between fake and real news, as its performance relies on the word groups learned from this specific dataset. However, the model can be improved. Therefore, it is crucial to consider this aspect when working with natural language processing models.
 
+## Model Performance
+
+### Confusion Matrix
+![Confusion Matrix](path/to/confusion_matrix.png)
+
+### Classification Report
+![Classification Report](path/to/classification_report.png)
+ 
