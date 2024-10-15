@@ -27,18 +27,21 @@ Fake News Detector is a web application that helps users evaluate the authentici
    cd FakeNewsDedector
 
 2. **Create a Virtual Environment (Optional)**
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate     # On Windows
 
 4. **Install Required Packages**
+   ```bash
    pip install -r requirements.txt
 
-5. **Run Migrations**
+6. **Run Migrations**
    ```bash
    python manage.py migrate
 
 7. **Run the Development Server**
+   ```bash
    python manage.py runserver
 
 ### Notes
